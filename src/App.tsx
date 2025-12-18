@@ -142,7 +142,7 @@ function Catalogo(): JSX.Element {
   return (
     <main className="max-w-6xl mx-auto p-6">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Catálogo de Flores</h2>
-      <p className="text-gray-600 mb-6">Selecciona un arreglo para ver detalles. Reemplaza las imágenes en <code>/public/images/</code> con tus propias fotos.</p>
+      <p className="text-gray-600 mb-6">Gran variedad de flores y diseños a tu gusto </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {productos.map((p) => (
